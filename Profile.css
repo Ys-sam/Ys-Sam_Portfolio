@@ -9,9 +9,15 @@ body{
         align-items: center;
         justify-content: center;
         background: #efe7ee;
-        padding: 300px;
         padding-top: 0%;
         padding-bottom: 0%;
+    }
+    @media (max-width:400px){
+        body{
+            min-height: 100vh;
+            padding: 0px;
+            width: 100%; 
+        }
     }
 header{
     min-height: 15px;
@@ -28,7 +34,7 @@ nav{
     padding-bottom: 0%;
     background-color: #efe7ee;
 }
-button{
+a{
     width: 200px;
     height: 10px;
     padding-top: 6px;
@@ -36,14 +42,15 @@ button{
     border-color: #efe7ee;
     transition: all 0.2s ease;
 }
-button:hover{
-    background-color: #efe7ee;
+a:hover{
+    background-color: whitesmoke;
     cursor: pointer;
 }
 .discription{
     display: flex;
     flex-direction: row;
     padding-bottom: 0%;
+    flex-wrap: wrap;
 }
 .proffesion{
     display: flex;
@@ -72,6 +79,15 @@ h2{
     padding-bottom: 0%;
     padding-right: 0%;  
 }
+.p{
+    width: 300px;
+    height: auto;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 0%;
+    padding-left: 0px;
+}
 p{
     width: 300px;
     height: auto;
@@ -96,6 +112,7 @@ p{
 }
 footer{
     min-width: 80vh;
+    box-sizing: border-box;
     background-color: burlywood;
     box-shadow:10px 10px 20px 5px ;
     height: 200px;
