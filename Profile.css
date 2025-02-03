@@ -14,9 +14,14 @@ body{
     }
     @media (max-width:400px){
         body{
-            min-height: 100vh;
+            min-height: 100vh;ø
             padding: 0px;
             width: 100%; 
+        }
+        .proffesion{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
         }
     }
 header{
@@ -57,11 +62,13 @@ a:hover{
     flex-direction: row;
     padding-top: 0%;
     padding-bottom: 0%;
+    flex-wrap: wrap;
 }
 .interests{
     display: flex;
     flex-direction: row;
     padding-top: 0%;
+    flex-wrap: wrap;
     padding-bottom: 0%;
 }
 img{
