@@ -12,7 +12,7 @@ body{
         padding-top: 0%;
         padding-bottom: 0%;
     }
-    @media (max-width:400px){
+    /* @media (max-width:400px){
         body{
             min-height: 100vh;ø
             padding: 0px;
@@ -23,7 +23,7 @@ body{
             flex-direction: row-reverse;
             flex-wrap: wrap;
         }
-    }
+    } */
 header{
     min-height: 15px;
     padding: 20px;
@@ -60,6 +60,7 @@ a:hover{
 .proffesion{
     display: flex;
     flex-direction: row;
+    order: -1;
     padding-top: 0%;
     padding-bottom: 0%;
     flex-wrap: wrap;
